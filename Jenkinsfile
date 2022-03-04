@@ -26,7 +26,7 @@ pipeline {
 
 				  stage('My-stage'){
 					          steps {
-					
+					              sh ''
 					                }
 				                   }	
 			        }
