@@ -1,8 +1,8 @@
 pipeline {
            agent { label 'pipe1' }
             stages {
-                       parallel {
-   		           	  stage('Build') {
+                 parallel {
+  		           	  stage('Build') {
   	                                         steps {
                                           		sh 'sleep 15; echo "This is a Build stage"'			
 					                 }
